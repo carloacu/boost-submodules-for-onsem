@@ -1,0 +1,3 @@
+[submodule "any"]
+	path = any
+	url = https://github.com/boostorg/any.git
