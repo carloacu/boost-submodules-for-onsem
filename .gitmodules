@@ -1,3 +1,120 @@
 [submodule "any"]
 	path = any
 	url = https://github.com/boostorg/any.git
+[submodule "bind"]
+	path = bind
+	url = https://github.com/boostorg/bind.git
+[submodule "foreach"]
+	path = foreach
+	url = https://github.com/boostorg/foreach.git
+[submodule "format"]
+	path = format
+	url = https://github.com/boostorg/format.git
+[submodule "multi_index"]
+	path = multi_index
+	url = https://github.com/boostorg/multi_index.git
+[submodule "property_tree"]
+	path = property_tree
+	url = https://github.com/boostorg/property_tree.git
+[submodule "range"]
+	path = range
+	url = https://github.com/boostorg/range.git
+[submodule "serialization"]
+	path = serialization
+	url = https://github.com/boostorg/serialization.git
+[submodule "type_index"]
+	path = type_index
+	url = https://github.com/boostorg/type_index.git
+[submodule "align"]
+	path = align
+	url = https://github.com/boostorg/align.git
+[submodule "static_assert"]
+	path = static_assert
+	url = https://github.com/boostorg/static_assert.git
+[submodule "assert"]
+	path = assert
+	url = https://github.com/boostorg/assert.git
+[submodule "atomic"]
+	path = atomic
+	url = https://github.com/boostorg/atomic.git
+[submodule "concept_check"]
+	path = concept_check
+	url = https://github.com/boostorg/concept_check.git
+[submodule "config"]
+	path = config
+	url = https://github.com/boostorg/config.git
+[submodule "container_hash"]
+	path = container_hash
+	url = https://github.com/boostorg/container_hash.git
+[submodule "conversion"]
+	path = conversion
+	url = https://github.com/boostorg/conversion.git
+[submodule "core"]
+	path = core
+	url = https://github.com/boostorg/core.git
+[submodule "detail"]
+	path = detail
+	url = https://github.com/boostorg/detail.git
+[submodule "filesystem"]
+	path = filesystem
+	url = https://github.com/boostorg/filesystem.git
+[submodule "function_types"]
+	path = function_types
+	url = https://github.com/boostorg/function_types.git
+[submodule "fusion"]
+	path = fusion
+	url = https://github.com/boostorg/fusion.git
+[submodule "integer"]
+	path = integer
+	url = https://github.com/boostorg/integer.git
+[submodule "io"]
+	path = io
+	url = https://github.com/boostorg/io.git
+[submodule "iterator"]
+	path = iterator
+	url = https://github.com/boostorg/iterator.git
+[submodule "move"]
+	path = move
+	url = https://github.com/boostorg/move.git
+[submodule "mp11"]
+	path = mp11
+	url = https://github.com/boostorg/mp11.git
+[submodule "mpl"]
+	path = mpl
+	url = https://github.com/boostorg/mpl.git
+[submodule "optional"]
+	path = optional
+	url = https://github.com/boostorg/optional.git
+[submodule "predef"]
+	path = predef
+	url = https://github.com/boostorg/predef.git
+[submodule "preprocessor"]
+	path = preprocessor
+	url = https://github.com/boostorg/preprocessor.git
+[submodule "smart_ptr"]
+	path = smart_ptr
+	url = https://github.com/boostorg/smart_ptr.git
+[submodule "system"]
+	path = system
+	url = https://github.com/boostorg/system.git
+[submodule "throw_exception"]
+	path = throw_exception
+	url = https://github.com/boostorg/throw_exception.git
+[submodule "tuple"]
+	path = tuple
+	url = https://github.com/boostorg/tuple.git
+[submodule "typeof"]
+	path = typeof
+	url = https://github.com/boostorg/typeof.git
+[submodule "type_traits"]
+	path = type_traits
+	url = https://github.com/boostorg/type_traits.git
+[submodule "utility"]
+	path = utility
+	url = https://github.com/boostorg/utility.git
+[submodule "variant2"]
+	path = variant2
+	url = https://github.com/boostorg/variant2.git
+[submodule "winapi"]
+	path = winapi
+	url = https://github.com/boostorg/winapi.git
