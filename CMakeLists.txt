@@ -1,0 +1,81 @@
+cmake_minimum_required(VERSION 3.4.1)
+project("BoostSubmodulesForOnsem")
+
+
+set(BOOST_INCLUDE_DIRS
+        "${CMAKE_CURRENT_SOURCE_DIR}/any/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/bind/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/foreach/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/format/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/multi_index/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/property_tree/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/range/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/serialization/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/type_index/include"
+
+        "${CMAKE_CURRENT_SOURCE_DIR}/align/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/assert/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/atomic/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/concept_check/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/config/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/container_hash/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/conversion/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/core/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/detail/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/filesystem/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/function_types/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/fusion/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/integer/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/io/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/iterator/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/move/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/mp11/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/mpl/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/optional/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/predef/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/preprocessor/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/smart_ptr/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/static_assert/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/system/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/throw_exception/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/tuple/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/typeof/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/type_traits/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/utility/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/variant2/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/winapi/include"
+        )
+
+
+ add_subdirectory(align)
+ add_subdirectory(assert)
+ add_subdirectory(atomic)
+ add_subdirectory(throw_exception)
+ add_subdirectory(config)
+ add_subdirectory(container_hash)
+ add_subdirectory(core)
+ add_subdirectory(detail)
+ add_subdirectory(utility)
+ add_subdirectory(iterator)
+ add_subdirectory(preprocessor)
+ add_subdirectory(static_assert)
+ add_subdirectory(type_traits)
+ add_subdirectory(integer)
+ add_subdirectory(move)
+ add_subdirectory(mpl)
+ add_subdirectory(tuple)
+ add_subdirectory(optional)
+ add_subdirectory(io)
+ add_subdirectory(mp11)
+ add_subdirectory(smart_ptr)
+ add_subdirectory(system)
+ add_subdirectory(predef)
+ add_subdirectory(concept_check)
+ add_subdirectory(conversion)
+ add_subdirectory(typeof)
+ add_subdirectory(filesystem)
+ add_subdirectory(function_types)
+ add_subdirectory(fusion)
+ add_subdirectory(variant2)
+ add_subdirectory(winapi)
+
