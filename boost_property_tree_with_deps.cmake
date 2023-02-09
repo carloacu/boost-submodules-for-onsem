@@ -6,6 +6,7 @@ set(BOOST_PROPERTY_TREE_WITH_DEPS_INCLUDE_DIRS
         "${_boost_root}/any/include"
         "${_boost_root}/bind/include"
         "${_boost_root}/foreach/include"
+        "${_boost_root}/integer/include"
         "${_boost_root}/multi_index/include"
         "${_boost_root}/property_tree/include"
         "${_boost_root}/serialization/include"
