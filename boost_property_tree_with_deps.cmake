@@ -27,4 +27,10 @@ set(BOOST_PROPERTY_TREE_WITH_DEPS_INCLUDE_DIRS
         "${_boost_root}/tuple/include"
         "${_boost_root}/type_traits/include"
         "${_boost_root}/utility/include"
+
+        # Dependencies for json_paser
+        "${_boost_root}/concept_check/include"
+        "${_boost_root}/format/include"
+        "${_boost_root}/range/include"
+        "${_boost_root}/smart_ptr/include"
         )
